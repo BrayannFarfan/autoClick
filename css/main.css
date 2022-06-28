@@ -1,0 +1,121 @@
+.btn-reserved{
+    background-color: rgb(213, 109, 6);
+    padding: 10px 25px ;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.btn-reserved:hover{
+    color: white;
+    background-color: rgb(174, 97, 20);
+}
+.nav-link{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #333;
+}
+.nav-link:hover{
+    color: rgb(213, 109, 6) !important;
+}
+.logo{
+    color: rgb(213, 109, 6);
+}
+.bg-cover{
+    background-position:center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.slide-1{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(../img/bg-slider1.jpg);
+}
+.slide-2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),url(../img/bg-slider2.jpg);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: #000;
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+#about{
+    margin-top: 8rem;
+}
+#about .title{
+    font-size: 3rem;
+}
+#about .divider{
+    width: 160px;
+    height: 2px;
+    background-color: rgb(213, 109, 6);
+    display: block;
+}
+
+.autos{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+    color: rgb(154, 153, 153);
+}
+.autos .nav-link{
+    background-color: rgb(213, 109, 6);
+    margin: 3px;
+    color: white;
+}
+.autos .nav-link:hover{
+    color: #000;
+}
+.form-controols{
+    margin-top: 7rem;
+}
+.footer{
+    margin-top: 7rem;
+}
+.card{
+    border:  none;
+}
+
+.card div span{
+    font-weight: 600;
+}
+.fa-solid{
+    color: rgb(213, 109, 6);
+}
+.btn-card:hover .fa-solid{
+    color: rgb(245, 245, 245) !important;
+}
+.icons-card{
+    margin: 15px;
+}
+.btn-card{
+    padding: 10px;
+    border: 1px solid rgb(213, 109, 6);
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+.btn-card:hover{
+    color: #fff;
+    background-color: rgb(213, 109, 6);
+}
+.form-control{
+    border: none;
+    -webkit-box-shadow: 2px 6px 17px -9px rgba(0,0,0,0.66); 
+box-shadow: 2px 6px 17px -9px rgba(0,0,0,0.66);
+}
+::placeholder{
+    text-transform: uppercase;
+    font-size: .8rem;
+}
